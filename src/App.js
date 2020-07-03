@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles.css";
+import "./App.css";
 import { ThumbContainer } from "./components/thumb-container";
-import { Navbar } from "./components/navbar";
+import { Navbar }  from "./components/navbar";
 import { Sidebar } from "./components/sidebar";
 
 export default function App() {
