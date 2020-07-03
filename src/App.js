@@ -1,29 +1,17 @@
 import React from "react";
 import "./App.css";
-
-import {Verde}     from  './component/verde';
-import {Azul}      from  './component/azul';
-import {Rojo}      from  './component/rojo';
-import {Amarillo}  from  './component/amarillo';
-import {Morado}    from  './component/morado';
+import { ThumbContainer } from "./components/thumb-container";
+import { Navbar }  from "./components/navbar";
+import { Sidebar } from "./components/sidebar";
 
 
 
-function App() {
+export default function App() {
   return (
-    <div className="cont">
-      <div className="App">
-      
-        <   Verde    />
-        <   Azul     />
-        <   Rojo     />
-        <   Amarillo />
-        <   Morado   />
-
-      </div>
+    <div className="App">
+      <Navbar />
+      <Sidebar />
+      <ThumbContainer />
     </div>
   );
 }
-
-
-export default App;
