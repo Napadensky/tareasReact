@@ -1,18 +1,15 @@
 import React from "react";
-import "./App.css";
+import "./styles.css";
+import { ThumbContainer } from "./components/thumb-container";
+import { Navbar } from "./components/navbar";
+import { Sidebar } from "./components/sidebar";
 
-
-function App() {
+export default function App() {
   return (
-    <div className="cont">
-      <div className="App">
-
-       {/* Empezar condigo aqui  */}
-
-      </div>
+    <div className="App">
+      <Navbar />
+      <Sidebar />
+      <ThumbContainer />
     </div>
   );
 }
-
-
-export default App;
